@@ -30,7 +30,7 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
     private void initComponents() {//GEN-BEGIN:initComponents
         java.awt.GridBagConstraints gridBagConstraints;
 
-        label1 = new java.awt.Label();
+        //label1 = new java.awt.Label();
         m_text = new java.awt.TextArea();
         m_buttonClose = new java.awt.Button();
 
