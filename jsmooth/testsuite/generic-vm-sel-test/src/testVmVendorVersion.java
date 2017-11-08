@@ -1,7 +1,7 @@
 /*
  * Frame.java
  *
- * Created on 10 août 2003, 19:23
+ * Created on 10 aoï¿½t 2003, 19:23
  */
 
 import java.util.*;
@@ -38,8 +38,8 @@ public class testVmVendorVersion extends java.awt.Frame
 	    String selection = System.getProperty("jsmooth.testsuite.selection");
 	    String selectionCheck = System.getProperty("jsmooth.testsuite.selection.check");
 	    
-	    System.out.println("Selection      : " + selection);
-	    System.out.println("Selection Check: " + selectionCheck);
+	  //comment  System.out.println("Selection      : " + selection);
+	  //comment  System.out.println("Selection Check: " + selectionCheck);
 
 	    String spawntype = System.getProperty("jsmooth.testsuite.spawntype");
 	    String spawntypecheck = System.getProperty("jsmooth.testsuite.spawntype.check");
