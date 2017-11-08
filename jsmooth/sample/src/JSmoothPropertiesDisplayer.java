@@ -30,7 +30,7 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
     private void initComponents() {//GEN-BEGIN:initComponents
         java.awt.GridBagConstraints gridBagConstraints;
 
-        //label1 = new java.awt.Label();
+        label1 = new java.awt.Label();
         m_text = new java.awt.TextArea();
         m_buttonClose = new java.awt.Button();
 
@@ -41,10 +41,11 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
                 exitForm(evt);
             }
         });
-
+/*
         label1.setAlignment(java.awt.Label.CENTER);
         label1.setFont(new java.awt.Font("Dialog", 0, 18));
         label1.setText("JSmooth Sample Program");
+        */
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridwidth = java.awt.GridBagConstraints.REMAINDER;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
