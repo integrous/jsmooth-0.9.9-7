@@ -1,7 +1,7 @@
 /*
  * Frame.java
  *
- * Created on 10 août 2003, 19:23
+ * Created on 10 aoï¿½t 2003, 19:23
  */
 
 import java.util.*;
@@ -32,7 +32,7 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
 
         label1 = new java.awt.Label();
         m_text = new java.awt.TextArea();
-        m_buttonClose = new java.awt.Button();
+        //m_buttonClose = new java.awt.Button();
 
         setLayout(new java.awt.GridBagLayout());
 
