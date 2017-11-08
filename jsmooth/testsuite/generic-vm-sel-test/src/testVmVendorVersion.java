@@ -18,8 +18,8 @@ public class testVmVendorVersion extends java.awt.Frame
     static public void displayMessage(String message)
     {
 	Frame f = new Frame("JSmooth TestSuite");
-	f.setLayout(new BorderLayout());
-	f.add(new Label(message));
+	//f.setLayout(new BorderLayout());
+	//f.add(new Label(message));
 
 	f.addWindowListener(new WindowAdapter() {
 		public void windowClosing(WindowEvent e)
@@ -38,14 +38,14 @@ public class testVmVendorVersion extends java.awt.Frame
 	    String selection = System.getProperty("jsmooth.testsuite.selection");
 	    String selectionCheck = System.getProperty("jsmooth.testsuite.selection.check");
 	    
-	  comment  System.out.println("Selection      : " + selection);
-	  comment  System.out.println("Selection Check: " + selectionCheck);
+	    System.out.println("Selection      : " + selection);
+	  System.out.println("Selection Check: " + selectionCheck);
 
 	    String spawntype = System.getProperty("jsmooth.testsuite.spawntype");
 	    String spawntypecheck = System.getProperty("jsmooth.testsuite.spawntype.check");
 	    
-	  comment System.out.println("SpawnType      : " + spawntype);
-	  comment System.out.println("SpawnType Check: " + spawntypecheck);
+	 System.out.println("SpawnType      : " + spawntype);
+	 System.out.println("SpawnType Check: " + spawntypecheck);
 
 	    if (spawntype.equalsIgnoreCase(spawntypecheck) == false)
 		{
