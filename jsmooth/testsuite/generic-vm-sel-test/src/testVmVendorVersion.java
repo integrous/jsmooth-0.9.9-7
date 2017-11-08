@@ -44,8 +44,8 @@ public class testVmVendorVersion extends java.awt.Frame
 	    String spawntype = System.getProperty("jsmooth.testsuite.spawntype");
 	    String spawntypecheck = System.getProperty("jsmooth.testsuite.spawntype.check");
 	    
-	    System.out.println("SpawnType      : " + spawntype);
-	    System.out.println("SpawnType Check: " + spawntypecheck);
+	  //comment System.out.println("SpawnType      : " + spawntype);
+	  //comment System.out.println("SpawnType Check: " + spawntypecheck);
 
 	    if (spawntype.equalsIgnoreCase(spawntypecheck) == false)
 		{
