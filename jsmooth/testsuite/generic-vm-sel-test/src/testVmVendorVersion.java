@@ -38,14 +38,14 @@ public class testVmVendorVersion extends java.awt.Frame
 	    String selection = System.getProperty("jsmooth.testsuite.selection");
 	    String selectionCheck = System.getProperty("jsmooth.testsuite.selection.check");
 	    
-	  //comment  System.out.println("Selection      : " + selection);
-	  //comment  System.out.println("Selection Check: " + selectionCheck);
+	  comment  System.out.println("Selection      : " + selection);
+	  comment  System.out.println("Selection Check: " + selectionCheck);
 
 	    String spawntype = System.getProperty("jsmooth.testsuite.spawntype");
 	    String spawntypecheck = System.getProperty("jsmooth.testsuite.spawntype.check");
 	    
-	  //comment System.out.println("SpawnType      : " + spawntype);
-	  //comment System.out.println("SpawnType Check: " + spawntypecheck);
+	  comment System.out.println("SpawnType      : " + spawntype);
+	  comment System.out.println("SpawnType Check: " + spawntypecheck);
 
 	    if (spawntype.equalsIgnoreCase(spawntypecheck) == false)
 		{
