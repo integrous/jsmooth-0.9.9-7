@@ -29,11 +29,11 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
 	 */
     private void initComponents() {//GEN-BEGIN:initComponents
         java.awt.GridBagConstraints gridBagConstraints;
-/*
+
         label1 = new java.awt.Label();
         m_text = new java.awt.TextArea();
         m_buttonClose = new java.awt.Button();
-*/
+
         setLayout(new java.awt.GridBagLayout());
 
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -96,10 +96,14 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
 				    // user on this drive !
 				}
 
-			    System.out.println("DriveInfo: " + di + " = " + di.toString());
+	//comment		    System.out.println("DriveInfo: " + di + " = " + di.toString());
 
-			    System.out.println("path: " + jsmooth.Native.getExecutablePath());
-			    System.out.println("filename: " + jsmooth.Native.getExecutableName());
+		//comment	    System.out.println("path: " + jsmooth.Native.getExecutablePath());
+			//comment    System.out.println("filename: " + jsmooth.Native.getExecutableName());
+			    
+			    
+			    
+			    
 // 			    jsmooth.Native.shellExecute(jsmooth.Native.SHELLEXECUTE_OPEN, 
 // 							"service.log", 	null, null, 
 // 							jsmooth.Native.SW_SHOWNORMAL);
