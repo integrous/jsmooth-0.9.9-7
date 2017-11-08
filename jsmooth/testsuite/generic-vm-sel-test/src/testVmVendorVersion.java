@@ -35,8 +35,8 @@ public class testVmVendorVersion extends java.awt.Frame
     {
 	System.out.println("Running testsuite " + testVmVendorVersion.class.toString());
 	try {
-	    String selection = System.getProperty("jsmooth.testsuite.selection");
-	    String selectionCheck = System.getProperty("jsmooth.testsuite.selection.check");
+	  //  String selection = System.getProperty("jsmooth.testsuite.selection");
+	   // String selectionCheck = System.getProperty("jsmooth.testsuite.selection.check");
 	    
 	    System.out.println("Selection      : " + selection);
 	  System.out.println("Selection Check: " + selectionCheck);
