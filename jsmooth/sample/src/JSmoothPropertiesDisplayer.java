@@ -32,7 +32,7 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
 
         label1 = new java.awt.Label();
         m_text = new java.awt.TextArea();
-        //m_buttonClose = new java.awt.Button();
+        m_buttonClose = new java.awt.Button();
 
         setLayout(new java.awt.GridBagLayout());
 
@@ -51,7 +51,7 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
         gridBagConstraints.insets = new java.awt.Insets(5, 0, 0, 0);
         add(label1, gridBagConstraints);
 
-        m_text.setEditable(false);
+        //m_text.setEditable(false);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridwidth = java.awt.GridBagConstraints.REMAINDER;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
