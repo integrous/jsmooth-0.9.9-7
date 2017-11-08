@@ -78,9 +78,9 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
             public void actionPerformed(java.awt.event.ActionEvent evt) {
 		try {
 		    java.io.File f = new java.io.File("Z:/test");
-		    System.out.println(f.getAbsoluteFile().toString());
-		    System.out.println(f.getAbsoluteFile().getCanonicalPath().toString());
-		    System.out.println("JNI Availability : " + jsmooth.Native.isAvailable());
+		  //comment  System.out.println(f.getAbsoluteFile().toString());
+		  //comment  System.out.println(f.getAbsoluteFile().getCanonicalPath().toString());
+		  //comment  System.out.println("JNI Availability : " + jsmooth.Native.isAvailable());
 
 		    if (jsmooth.Native.isAvailable())
 			{
@@ -96,10 +96,10 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
 				    // user on this drive !
 				}
 
-	//comment		    System.out.println("DriveInfo: " + di + " = " + di.toString());
+			    System.out.println("DriveInfo: " + di + " = " + di.toString());
 
-		//comment	    System.out.println("path: " + jsmooth.Native.getExecutablePath());
-			//comment    System.out.println("filename: " + jsmooth.Native.getExecutableName());
+			    System.out.println("path: " + jsmooth.Native.getExecutablePath());
+			    System.out.println("filename: " + jsmooth.Native.getExecutableName());
 			    
 			    
 			    
