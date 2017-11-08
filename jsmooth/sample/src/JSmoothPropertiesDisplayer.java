@@ -78,9 +78,9 @@ public class JSmoothPropertiesDisplayer extends java.awt.Frame
             public void actionPerformed(java.awt.event.ActionEvent evt) {
 		try {
 		    java.io.File f = new java.io.File("Z:/test");
-		  //comment  System.out.println(f.getAbsoluteFile().toString());
-		  //comment  System.out.println(f.getAbsoluteFile().getCanonicalPath().toString());
-		  //comment  System.out.println("JNI Availability : " + jsmooth.Native.isAvailable());
+		   System.out.println(f.getAbsoluteFile().toString());
+		   System.out.println(f.getAbsoluteFile().getCanonicalPath().toString());
+		   System.out.println("JNI Availability : " + jsmooth.Native.isAvailable());
 
 		    if (jsmooth.Native.isAvailable())
 			{
