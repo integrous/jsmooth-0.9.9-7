@@ -3,7 +3,7 @@
   <!-- set here the properties specific to your computer      -->
   <!-- see the README.txt file for additional information     -->
   <!-- DO NOT SKIP THIS PART! REALLY! IT WON'T WORK OTHERWISE -->
-  <property name="JDKDIR" value="c:\Program Files\Java\jdk1.5.0_11"/>
+  <property name="JDKDIR" value="C:\Program Files\Java\jdk1.8.0_151"/>
   <property name="RM" value="CMD /C DEL"/>
 
   <!-- Values below should be standard, but check it anyway -->
@@ -20,8 +20,8 @@
   <!-- Then, add the windows path so that the makefile gets it right -->
   <!-- Below are the default values when you ./configure, make and   -->
   <!-- make install fltk under an msys environement                  -->
-  <property name="fltk-ldflags" value="-LC:/msys/1.0/local/lib -mwindows -mno-cygwin -lfltk -lole32 -luuid -lcomctl32 -lwsock32"/>
-  <property name="fltk-cxxflags" value="-IC:/msys/1.0/local/include -IC:/msys/1.0/local/include/FL/images -mwindows -DWIN32 -mno-cygwin"/>
+  <property name="fltk-ldflags" value="-LC:/MinGW/msys/1.0/local/lib -mwindows -mno-cygwin -lfltk -lole32 -luuid -lcomctl32 -lwsock32"/>
+  <property name="fltk-cxxflags" value="-IC:/MinGW/msys/1.0/local/include -IC:/MinGW/msys/1.0/local/include/FL/images -mwindows -DWIN32 -mno-cygwin"/>
 
   <!-- What's below is  optional (needed only if you build a dist) -->
   <property name="FOP" value="c:/Programs/fop-0.93\fop.bat"/>
@@ -82,7 +82,7 @@
   <target depends="init" name="compile">
     <!-- Compile the java code from ${src} into ${classes} -->
     <echo>Compiling the application from ${src}</echo>
-    <javac target="1.4" source="1.4" deprecation="yes" destdir="${classes}" srcdir="${src}" debug="true">
+    <javac target="1.4" source="1.4" deprecation="yes" destdir="${classes}" srcdir="${src}" debug="true" includeantruntime ="false">
        <classpath refid="jsmooth.class.path"/>
     </javac>
   </target>

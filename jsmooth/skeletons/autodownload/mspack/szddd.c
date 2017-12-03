@@ -226,9 +226,9 @@ static int szddd_decompress(struct msszdd_decompressor *self,
  ***************************************
  * returns the last error that occurred
  */
-/*static int szddd_error(struct msszdd_decompressor *self)
+static int szddd_error(struct msszdd_decompressor *self)
 {
   struct msszdd_decompressor_p *this = (struct msszdd_decompressor_p *) self;
   return (this) ? this->error : MSPACK_ERR_ARGS;
 }
-*/
+
