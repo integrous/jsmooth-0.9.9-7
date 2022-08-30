@@ -26,7 +26,7 @@ package jsmooth;
  * static, but it is important that you check the availability of the
  * methods by calling first the <tt>isAvailable()</tt> method.
  * <p>
- * 
+ * ggggggggggggggggggggggggggggggggggggggg
  * When JSmooth loads the JVM, and before calling the application's
  * main class, it registers all the native methods provided in this
  * class with their matching C functions. If the registration process
